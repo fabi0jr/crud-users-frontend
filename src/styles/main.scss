@@ -1,0 +1,109 @@
+@use "variables" as *;
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-family-manrope), sans-serif;
+  background-color: var(--color-light-gray);
+}
+
+.app-container {
+  display: flex;
+  min-height: 100vh;
+}
+
+.content-area {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  background-color: var(--full-branco-ffffff);
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.main-content {
+  flex: 1;
+  padding: 0px 20px;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #c7c7c7;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #6f7d7d;
+  border-radius: 15px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #b9b8b8;
+}
+
+.Toastify__toast {
+  font-family: var(--font-family-manrope), sans-serif;
+  border-radius: 4px;
+  padding: 8px 12px;
+  min-height: 40px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.Toastify__toast-body {
+  font-size: 14px;
+  font-weight: 500;
+  padding: 0;
+  margin: 0;
+}
+
+.Toastify__toast--success {
+  background-color: #00c857;
+  color: white;
+  border: none;
+}
+
+.Toastify__toast--error {
+  background-color: #ff4b4a;
+  color: white;
+  border: none;
+}
+
+.Toastify__toast--warning {
+  background-color: #ff7700;
+  color: white;
+  border: none;
+}
+
+.Toastify__progress-bar {
+  height: 0;
+  opacity: 0;
+}
+
+.Toastify__toast-icon {
+  margin-right: 8px;
+}
+
+.Toastify__close-button {
+  color: white;
+  opacity: 1;
+}
+
+.Toastify__close-button > svg {
+  fill: white;
+  height: 24px;
+  width: 24px;
+}
