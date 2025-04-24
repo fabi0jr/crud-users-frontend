@@ -18,17 +18,13 @@ O **WenLock** é um sistema de gerenciamento de usuários com uma interface mode
 - **Axios**: Comunicação com a API.
 - **SASS/SCSS**: Estilização personalizada.
 - **React Toastify**: Notificações para feedback ao usuário.
-
-### **Ferramentas de Desenvolvimento**
-- **Vite**: Ferramenta de build rápida e eficiente.
-- **ESLint** e **Prettier**: Padronização e formatação de código.
-
 ---
 
 ## **Pré-requisitos**
 Antes de começar, certifique-se de ter as seguintes ferramentas instaladas:
 - [Node.js](https://nodejs.org/) (versão 16 ou superior)
 - [npm](https://www.npmjs.com/) ou [yarn](https://yarnpkg.com/)
+- API backend em execução (consulte o repositório [Crud-users](https://github.com/fabi0jr/Crud-users))
 
 ---
 
@@ -36,8 +32,8 @@ Antes de começar, certifique-se de ter as seguintes ferramentas instaladas:
 
 ### **1. Clone o Repositório**
 ```bash
-git clone https://github.com/seu-usuario/wenlock-frontend.git
-cd wenlock-frontend
+git clone https://github.com/fabi0jr/crud-users-frontend
+cd crud-users-frontend
 ```
 
 ### **2. Instale as Dependências**
