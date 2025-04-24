@@ -45,7 +45,7 @@
       display: flex;
       justify-content: center;
       .menu-button {
-        transition: all 0.2s ease;
+        transition: all 1s ease-in;
       }
 
       .expand-icon {
@@ -119,6 +119,6 @@
   :hover.toggle-button{
     color: white;
     background-color:var(--color-cyan);
-    transition: 0.4s;
+    transition: 0.5s;
   }
 }
