@@ -3,7 +3,7 @@ import CssBaseline from "@mui/material/CssBaseline";
 import "./styles/main.scss";
 import { QueryProvider } from "./providers/QueryProvider";
 import { ToastContainer } from "react-toastify";
-import Router from "./routes/Router";
+import Router from "./routes/router";
 import { BrowserRouter } from "react-router-dom";
 
 const theme = createTheme({
